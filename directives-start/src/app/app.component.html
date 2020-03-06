@@ -17,6 +17,20 @@
         </li>
         </div>
 
+        <!-- Alternatively, you can implement the *ngIf element this way... -->
+
+        <!-- <ng-template [ngIf]="!onlyOdd">
+          <div>
+            <li
+            class="list-group-item"
+            [ngClass]="{odd: odd % 2 !== 0}"
+            [ngStyle]="{backgroundColor: odd % 2 !== 0 ? 'yellow' : 'transparent'}"
+            *ngFor="let odd of oddNumbers">
+            {{ odd }}
+          </li>
+          </div>
+        </ng-template> -->
+
         <div *ngIf="!onlyOdd">
           <li
           class="list-group-item"
