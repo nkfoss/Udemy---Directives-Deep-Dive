@@ -4,7 +4,7 @@ import { Directive, ElementRef, OnInit } from '@angular/core';
 
 // ***NOTE: Don't forget to import this in app Module!!!!
 
-
+// This is better achieved using the renderer.
 
 @Directive({
   selector: '[appBasicHighlight]'
