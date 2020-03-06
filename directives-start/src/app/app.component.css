@@ -1,3 +1,9 @@
 .container {
   margin-top: 30px;
 }
+
+/* this is set inside the HTML using ngClass and property binding */
+/* These are used in combination wthi ngStyle */
+.odd {
+  color: red;
+}
